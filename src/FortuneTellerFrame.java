@@ -87,7 +87,7 @@ public class FortuneTellerFrame extends JFrame {
         middlePanel = new JPanel();
         middlePanel.setBackground(Color.WHITE);
 
-        fortuneDisplay = new JTextArea(10, 40);
+        fortuneDisplay = new JTextArea(10, 80);
         fortuneDisplay.setFont(fortuneFont);
         fortuneDisplay.setEditable(false);
 
